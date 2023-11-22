@@ -52,3 +52,11 @@ Implement the function to count correctly and pass the test.
 - Readability of variable names, code-flow, usage of comments only when necessary
 - Improvements to existing code and tests
 - Precision: adding new tests (such as boundary conditions)
+
+
+  #Solution Description
+  The countBatteriesByHealth function takes an array of present capacities and calculates the state-of-health (SoH) for each battery based on the assumption of a rated capacity of 100. It then classifies the batteries as healthy, exchange, or failed based on their SoH and keeps count of each classification.
+  
+  The testBucketingByHealth function tests the countBatteriesByHealth function by providing a sample array of present capacities and asserting that the expected counts match the actual counts.
+  
+  The main.js file serves as the entry point of the project.
